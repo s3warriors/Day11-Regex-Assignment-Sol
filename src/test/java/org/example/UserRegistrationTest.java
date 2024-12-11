@@ -50,6 +50,7 @@ public class UserRegistrationTest {
         }
     }
     @Test
+
     void testFirstNameValidation() {
         // Happy Test Case
         assertTrue(userRegistration.validateFirstName("John"));
